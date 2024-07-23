@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreadnought-class Space Drone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1200px;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .controller {
+            width: 40%;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .text-editor {
+            width: 55%;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .controller button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #e74c3c;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .controller button:hover {
+                background-color: #c0392b;
+            }
+
+        .text-editor textarea {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controller">
+            <h2>Dreadnought-class Space Drone</h2>
+            <button id="thrust">Forward</button>
+            <button id="thrust">Backward</button>
+            <button id="thrust">Left</button>
+            <button id="thrust">Right</button>
+            <button id="brake">Brake</button>
+            <button id="rotate-left">Rotate Left</button>
+            <button id="rotate-right">Rotate Right</button>
+            <button id="fire">Fire</button>
+            <button id="fire">Fire</button>
+            <button id="fire">Fire</button>
+            <button id="fire">Fire</button>
+            <button id="fire">Fire</button>
+            <button id="fire">Fire</button>
+            <button id="transceiver">Transceiver Base Station</button>
+            <button id="camera">Camera</button>
+            <button id="distance-loading">Distance Loading System</button> <!-- Added button for Distance Loading System -->
+        </div>
+        <div class="text-editor">
+            <h2>Text Editor</h2>
+            <textarea id="editor" placeholder="Enter your text here..."></textarea>
+        </div>
+    </div>
+</body>
+</html>
